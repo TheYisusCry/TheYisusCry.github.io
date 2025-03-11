@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Metas-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esto es un sitio web de una sola pagina explicando algunas cosas de bootstrap con ejemplos">
+    <meta name="keywords" content="Bad-Bunny-2025, BaBunny, YHLQMDLG, Las-que-no-iban-a-salir, El-conejo-malo, Un-verano-sin-ti, El-ultimo-tour-del-mundo, nadie-sabe-lo-que-va-a-pasar-mañana, Oasis, X100PRE, Rimas, Bayamón, Yonaguni, DtMF, quiz">
+    <meta name="author" content="Ismael José Batista">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Mi Css -->
+    <link id="theme-style" rel="stylesheet" href="css/contacto.css">
+    <link rel="shortcut icon" href="icons/iconoDeSitioWeb.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <title>BadBunnyLand</title>
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-md fixed-top menu">
+      <div class="container-fluid d-flex justify-content-between align-items-center">
+          
+          <a class="navbar-brand" href="index.html">
+              <img id="badBunnyLogo" src="img/pagina-principal/badPrincipal.jpeg" alt="Bad-Bunny-2025">
+          </a>
+  
+          <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                  <li class="nav-item"><a class="nav-link textoMenu" href="#inicio">Inicio</a></li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle textoMenu" href="#" role="button" data-bs-toggle="dropdown">Álbumes</a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="x100pre.html">X100PRE</a></li>
+                          <li><a class="dropdown-item" href="Oasis.html">Oasis</a></li>
+                          <li><a class="dropdown-item" href="YHLQMDLG.html">YHLQMDLG</a></li>
+                          <li><a class="dropdown-item" href="Las-que-no-iban-a-salir.html">LAS QUE NO IBAN A SALIR</a></li>
+                          <li><a class="dropdown-item" href="El-ultimo-tour-del-mundo.html">EL ÚLTIMO TOUR DEL MUNDO</a></li>
+                          <li><a class="dropdown-item" href="Un-verano-sin-ti.html">Un Verano Sin Ti</a></li>
+                          <li><a class="dropdown-item" href="nadie-sabe-lo-que-va-a-pasar-mañana.html">nadie sabe lo que va a pasar mañana</a></li>
+                          <li><a class="dropdown-item" href="DtMF.html">DeBÍ TiRAR MáS FOTos</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item"><a class="nav-link textoMenu" href="noticias.html">Noticias</a></li>
+                  <li class="nav-item"><a class="nav-link textoMenu" href="contacto.html">Contacto</a></li>
+                  <li class="nav-item"><a class="nav-link textoMenu" href="enlacesInteres.html">Enlaces</a></li>
+                  <li class="nav-item"><a class="nav-link textoMenu" href="privacidad.html">About Us</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+        
+        <button id="toggle-theme" class="btn btn-dark position-fixed top-50 end-0 me-3">🌙</button>
+        <section>
+            <div id="inicio" class="container mt-5 fondoNegro text-center">
+                <h1>Contacto</h1>
+            </div>    
+        </section>
+
+        <div class="container mt-3 fondoNegro">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6 mb-4">
+                    <div>
+                        <h4>¿ALGUNA PREGUNTA? Llene este formulario</h4>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="correo" class="form-label">Correo</label>
+                        <input type="email" class="form-control" id="correo" placeholder="nombre@ejemplo.com" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="telefono" class="form-label">Teléfono</label>
+                        <input type="tel" class="form-control" id="telefono" placeholder="xxx-xxx-xxxx" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="comentario" class="form-label">Comentario</label>
+                        <textarea class="form-control" id="comentario" placeholder="Escribe tu Comentario" rows="3" required></textarea>
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-primary" id="enviar">Enviar</button>
+                    </div>
+                    <div id="mensaje-exito" class="alert alert-success mt-2" role="alert" style="display: none;">
+                        ¡Formulario enviado con éxito!
+                    </div>
+                    
+                    
+
+                </div>
+                <div class="col-12 col-md-6 mb-4">
+                    <div>
+                        <h4>Informacion General</h4>
+                    </div>
+
+                    <div class="mt-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                          </svg> <a href="tel:+18494530903" target="_blank">+1 (787) 787-7877</a>
+                    </div>
+
+                    <div class="mt-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+                            <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671"/>
+                            <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791"/>
+                          </svg> <a href="mailto:ij23-0699@unphu.edu.do"> ij23-0699@unphu.edu.do</a>
+
+                    </div>
+
+                    <div class="mt-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                          </svg> <a href="https://wa.me/+18494530903" target="_blank">+1 (849) 453-0903</a>
+                    </div>
+
+                    <div class="mt-5">
+                        <span class=""><a href="https://www.instagram.com/badbunnypr/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
+                            <radialGradient id="yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fd5"></stop><stop offset=".328" stop-color="#ff543f"></stop><stop offset=".348" stop-color="#fc5245"></stop><stop offset=".504" stop-color="#e64771"></stop><stop offset=".643" stop-color="#d53e91"></stop><stop offset=".761" stop-color="#cc39a4"></stop><stop offset=".841" stop-color="#c837ab"></stop></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path><radialGradient id="yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2" cx="11.786" cy="5.54" r="29.813" gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4168c9"></stop><stop offset=".999" stop-color="#4168c9" stop-opacity="0"></stop></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path><path fill="#fff" d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"></path><circle cx="31.5" cy="16.5" r="1.5" fill="#fff"></circle><path fill="#fff" d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"></path>
+                            </svg></a></span>
+
+                        <span class="ms-5"><a href="https://www.facebook.com/BadBunnyOfficial" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
+                            <linearGradient id="Ld6sqrtcxMyckEl6xeDdMa_uLWV5A9vXIPu_gr1" x1="9.993" x2="40.615" y1="9.993" y2="40.615" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2aa4f4"></stop><stop offset="1" stop-color="#007ad9"></stop></linearGradient><path fill="url(#Ld6sqrtcxMyckEl6xeDdMa_uLWV5A9vXIPu_gr1)" d="M24,4C12.954,4,4,12.954,4,24s8.954,20,20,20s20-8.954,20-20S35.046,4,24,4z"></path><path fill="#fff" d="M26.707,29.301h5.176l0.813-5.258h-5.989v-2.874c0-2.184,0.714-4.121,2.757-4.121h3.283V12.46 c-0.577-0.078-1.797-0.248-4.102-0.248c-4.814,0-7.636,2.542-7.636,8.334v3.498H16.06v5.258h4.948v14.452 C21.988,43.9,22.981,44,24,44c0.921,0,1.82-0.084,2.707-0.204V29.301z"></path>
+                            </svg></a></span>
+
+                        <span class="ms-5"><a href="https://www.tiktok.com/@badbunny" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
+                            <path fill="#3dd9eb" d="M20,37c2.761,0,5-2.239,5-5v-1v-1V6.07h5.208c-0.031-0.14-0.072-0.276-0.097-0.419H30.11 c-0.044-0.248-0.076-0.495-0.099-0.746V4.07H23V28v1v1c0,2.761-2.239,5-5,5c-0.864,0-1.665-0.239-2.375-0.625 C16.473,35.931,18.103,37,20,37z"></path><path fill="#f55376" d="M33.718,11.407c-0.797-1.094-1.364-2.367-1.607-3.756H32.11c-0.044-0.248-0.076-0.495-0.099-0.746 V6.07h-1.803C30.699,8.252,31.969,10.132,33.718,11.407z"></path><path fill="#f55376" d="M18,25c-2.761,0-5,2.239-5,5c0,1.897,1.069,3.527,2.625,4.375C15.239,33.665,15,32.864,15,32 c0-2.761,2.239-5,5-5c0.343,0,0.677,0.035,1,0.101v-7.05C20.669,20.023,20.338,20,20,20s-0.669,0.023-1,0.05v5.05 C18.677,25.035,18.343,25,18,25z"></path><path fill="#3dd9eb" d="M36.257,13.783c0.867,0.541,1.819,0.908,2.806,1.131v-0.376v-0.002v-1.381 c-1.7,0.003-3.364-0.473-4.806-1.373c-0.186-0.116-0.361-0.247-0.538-0.376C34.406,12.351,35.263,13.163,36.257,13.783z"></path><path fill="#3dd9eb" d="M19,20.05v-2C18.669,18.023,18.338,18,18,18c-6.627,0-12,5.373-12,12 c0,3.824,1.795,7.222,4.581,9.419C8.969,37.377,8,34.804,8,32C8,25.71,12.842,20.56,19,20.05z"></path><path fill="#f55376" d="M39.062,14.914v4.733c-3.375,0-6.501-1.071-9.052-2.894L30.013,30l-0.014-0.018 C29.999,29.988,30,29.994,30,30c0,6.627-5.373,12-12,12c-2.804,0-5.377-0.969-7.419-2.581C12.778,42.205,16.176,44,20,44 c6.627,0,12-5.373,12-12c0-0.006-0.001-0.012-0.001-0.018L32.013,32l-0.002-13.248c2.551,1.823,5.677,2.894,9.052,2.894v-5.108 v-0.002v-1.381C40.385,15.157,39.717,15.061,39.062,14.914z"></path><path fill="#2100c4" d="M30,30c0-0.006-0.001-0.012-0.001-0.018L30.013,30l-0.002-13.248 c2.551,1.823,5.677,2.894,9.052,2.894v-4.733c-0.987-0.223-1.939-0.59-2.806-1.131c-0.994-0.62-1.851-1.432-2.538-2.376 c-1.75-1.275-3.019-3.155-3.51-5.337H25V30v1v1c0,2.761-2.239,5-5,5c-1.897,0-3.527-1.069-4.375-2.625 C14.069,33.527,13,31.897,13,30c0-2.761,2.239-5,5-5c0.343,0,0.677,0.035,1,0.101v-5.05C12.842,20.56,8,25.71,8,32 c0,2.804,0.969,5.377,2.581,7.419C12.623,41.031,15.196,42,18,42C24.627,42,30,36.627,30,30z"></path>
+                            </svg></a></span>
+
+                        <span class="ms-5"><a href="https://www.tiktok.com/@badbunny" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                            <path d="M 11 4 C 7.134 4 4 7.134 4 11 L 4 39 C 4 42.866 7.134 46 11 46 L 39 46 C 42.866 46 46 42.866 46 39 L 46 11 C 46 7.134 42.866 4 39 4 L 11 4 z M 13.085938 13 L 21.023438 13 L 26.660156 21.009766 L 33.5 13 L 36 13 L 27.789062 22.613281 L 37.914062 37 L 29.978516 37 L 23.4375 27.707031 L 15.5 37 L 13 37 L 22.308594 26.103516 L 13.085938 13 z M 16.914062 15 L 31.021484 35 L 34.085938 35 L 19.978516 15 L 16.914062 15 z"></path>
+                            </svg></a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <footer class="mt-3">
+          <div class="container-fluid d-flex justify-content-center align-items-center">
+            <img id="imagenFooter" class="mt-3" src="https://variety.com/wp-content/uploads/2023/10/Bad-Bunny-WWE-2K.png?w=1000&h=667&crop=1&resize=1000%2C667" alt="BadBo2k">
+          </div>
+  
+          <div class="container text-center mt-1">
+              <h5>Made by Ismael José Batista 23-0669</h5>
+          </div>
+  
+          <div class="container-fluid mt-3">
+            <div class="container text-center">
+                <div class="row">
+                  <div class="col">
+                    <span class="item-footer"><a href="https://www.instagram.com/badbunnypr/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                    </svg></a></span>
+                  </div>
+                  <div class="col">
+                    <span class="item-footer"><a href="https://www.facebook.com/BadBunnyOfficial" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                    </svg></a></span>
+                  </div>
+                  <div class="col">
+                    <span class="item-footer"><a href="https://www.tiktok.com/@badbunny" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+                        <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+                    </svg></a></span>
+                  </div>
+                </div>
+              </div>
+            <div class="hr-footer"></div>
+            <h5 class="text-center">Ismael José Batista – 23-0669 © 2005 – Hasta que Dios quiera. Todos los derechos reservados <br> <a id="politica" href="privacidad.html">Política de Privacidad</a></h5>
+        </div>
+      </footer>
+  
+
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+        const themeToggle = document.getElementById("toggle-theme");
+        const themeStyle = document.getElementById("theme-style");
+  
+        if (!themeToggle || !themeStyle) {
+            console.warn("El botón de cambio de tema o el link de estilos no se encontraron.");
+            return; // Salir de la función si el botón no existe
+        }
+  
+        // Verifica si hay un tema guardado en localStorage
+        if (localStorage.getItem("theme") === "dark") {
+            themeStyle.href = "css/oscuro.css";
+        }
+  
+        themeToggle.addEventListener("click", function () {
+            if (themeStyle.getAttribute("href") === "css/contacto.css") {
+                themeStyle.href = "css/oscuro.css";
+                localStorage.setItem("theme", "dark");
+            } else {
+                themeStyle.href = "css/contacto.css";
+                localStorage.setItem("theme", "light");
+            }
+        });
+    });
+  
+      </script>
+  
+      <script src="js/scripts.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
