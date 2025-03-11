@@ -1,0 +1,200 @@
+
+html {
+  scroll-padding-top: 16%;
+}
+
+body{
+font-family: "Bree Serif", serif;
+font-weight: 400;
+font-style: normal;
+padding-top: 5%;
+background-image: url("/img/pagina-principal/coverYHLQMDLG.png");
+background-size: cover; /* Ajusta el tamaño de la imagen */
+background-position: center; /* Centra la imagen */
+background-repeat: no-repeat; /* Evita que la imagen se repita */
+display: flex;
+flex-direction: column;
+}
+
+@media (max-width: 768px) {
+body {
+  padding-top: 20%;
+}
+}
+
+/* controla como se muestra el contenido */
+section{
+max-width: 1200px; 
+margin: 0 auto;
+padding: 0 5%; 
+}
+
+h2{
+color: white;
+font-size: 50px;
+font-weight: bold;
+}
+
+h4{
+color: white;
+font-size: 30px;
+font-weight: bold;
+}
+
+h5{
+color: #ffffff;
+}
+
+a {
+color: white; /* Color negro */
+text-decoration: none;
+font-size: 20px;
+}
+
+a:hover {
+color: #d1704d; /* Cambia el color cuando el ratón está sobre el enlace */
+}
+
+p{
+text-align: justify;
+color: white;
+font-size: 20px;
+}
+
+.menu{
+background-color: #085070;
+}
+
+.navbar-toggler-icon {
+background-color: white; /* Cambia a cualquier color */
+border-radius: 5px; /* Hace las líneas más redondeadas */
+}
+
+.navbar-nav .nav-item .nav-link.active {
+color: white;
+font-size: 26px;
+}
+
+.nav-link:hover{
+color: #d1704d;
+}
+
+/* Cambiar el fondo del dropdown */
+.navbar .dropdown-menu {
+  background-color: #085070 !important; /* Cambia este color al que prefieras */
+}
+
+/* Cambiar el color de los enlaces dentro del dropdown */
+.navbar .dropdown-menu .dropdown-item {
+  color: white !important; /* Color del texto */
+}
+
+/* Cambiar el color cuando se pasa el mouse sobre un elemento del dropdown */
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: #d1704d !important; /* Cambia este color al que prefieras */
+  color: white !important;
+}
+/* Mantener el color del texto en el dropdown activo */
+.navbar .nav-item.dropdown .nav-link:focus,
+.navbar .nav-item.dropdown .nav-link:active,
+.navbar .nav-item.dropdown .nav-link.show {
+  color: #d1704d !important; /* Cambia este color al que prefieras */
+}
+
+.textoMenu{
+color: white ;
+font-size: 26px;
+}
+
+#badBunnyLogo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid cornsilk;
+}
+
+.imagenX100Pre {
+display: flex;
+justify-content: center; /* Centra horizontalmente */
+align-items: center; /* Centra verticalmente */
+flex-direction: column; /* Asegura que el contenido esté alineado */
+padding: 20px;
+background: #085070; /* Fondo con transparencia */
+border-radius: 15px;
+box-shadow: 0px 10px 100px #085070; /* Sombra */
+margin: 20px auto; /* Asegura que esté centrado horizontalmente */
+max-width: 600px; 
+}
+
+#imagenX100Pre {
+display: block;
+max-width: 100%;
+border-radius: 10px;
+}
+
+#escucharAHora:hover{
+color: #d1704d;
+}
+
+.escucharAhora{
+max-width: 280px; /* Ajusta el tamaño según prefieras */
+margin: 0 auto; /* Centra la caja horizontalmente */
+}
+
+.fondoNegro {
+color: white;
+padding: 20px;
+border-radius: 15px;
+background: #085070; /* Fondo con transparencia */
+box-shadow: 0px 10px 100px #085070; /* Sombra */
+
+}
+
+#cancionesDestacadas{
+color: white;
+}
+
+#btnMensaje {
+  font-size: 24px;  /* Tamaño de texto más grande */
+  padding: 15px 30px; /* Espaciado interno */
+  width: 200px;  /* Ancho fijo */
+  background-color: #d1704d;
+  color: #085070;
+  border: 2px solid #d1704d;
+}
+
+#btnMensaje:hover{
+  background-color: #a85a3e;
+  border: 2px solid #a85a3e;
+}
+
+footer{
+background-color: #085070;
+}
+
+.hr-footer {
+width: 100%; 
+height: 2px; 
+background-color: white;
+margin: 20px 0;
+}
+
+#imagenFooter{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+object-fit: cover;
+border: 2px solid cornsilk;
+object-position: center;
+
+}
+
+.navbar-toggler-icon {
+background-color: white; /* Cambia a cualquier color */
+border-radius: 5px; /* Hace las líneas más redondeadas */
+}
+
+#politica{
+  font-size: 15px;
+}
