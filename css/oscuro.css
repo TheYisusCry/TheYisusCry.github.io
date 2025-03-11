@@ -112,7 +112,7 @@ li{
 .navbar .nav-item.dropdown .nav-link:focus,
 .navbar .nav-item.dropdown .nav-link:active,
 .navbar .nav-item.dropdown .nav-link.show {
-  color: #000000 !important; /* Cambia este color al que prefieras */
+  color: #ffffff !important; /* Cambia este color al que prefieras */
 }
 
 .textoMenu{
