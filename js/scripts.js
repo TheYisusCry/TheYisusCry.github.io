@@ -72,6 +72,11 @@ document.getElementById("enviar").addEventListener("click", function(event) {
         return;
     }
 
+    if (!validarTelefono(correo)) {
+        alert("Ingresa un telefono válido.");
+        return;
+    }
+
     mensajeExito.style.display = "block";
 
     // Recarga la página
