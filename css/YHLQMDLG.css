@@ -9,9 +9,9 @@ font-weight: 400;
 font-style: normal;
 padding-top: 5%;
 background-image: url("/img/pagina-principal/coverYHLQMDLG.png");
-background-size: cover; /* Ajusta el tamaño de la imagen */
-background-position: center; /* Centra la imagen */
-background-repeat: no-repeat; /* Evita que la imagen se repita */
+background-size: cover; 
+background-position: center; 
+background-repeat: no-repeat; 
 display: flex;
 flex-direction: column;
 }
@@ -46,13 +46,13 @@ color: #ffffff;
 }
 
 a {
-color: white; /* Color negro */
+color: white; 
 text-decoration: none;
 font-size: 20px;
 }
 
 a:hover {
-color: #d1704d; /* Cambia el color cuando el ratón está sobre el enlace */
+color: #d1704d; 
 }
 
 p{
@@ -66,8 +66,8 @@ background-color: #085070;
 }
 
 .navbar-toggler-icon {
-background-color: white; /* Cambia a cualquier color */
-border-radius: 5px; /* Hace las líneas más redondeadas */
+background-color: white; 
+border-radius: 5px; 
 }
 
 .navbar-nav .nav-item .nav-link.active {
@@ -81,24 +81,24 @@ color: #d1704d;
 
 /* Cambiar el fondo del dropdown */
 .navbar .dropdown-menu {
-  background-color: #085070 !important; /* Cambia este color al que prefieras */
+  background-color: #085070 !important; 
 }
 
 /* Cambiar el color de los enlaces dentro del dropdown */
 .navbar .dropdown-menu .dropdown-item {
-  color: white !important; /* Color del texto */
+  color: white !important; 
 }
 
 /* Cambiar el color cuando se pasa el mouse sobre un elemento del dropdown */
 .navbar .dropdown-menu .dropdown-item:hover {
-  background-color: #d1704d !important; /* Cambia este color al que prefieras */
+  background-color: #d1704d !important; 
   color: white !important;
 }
 /* Mantener el color del texto en el dropdown activo */
 .navbar .nav-item.dropdown .nav-link:focus,
 .navbar .nav-item.dropdown .nav-link:active,
 .navbar .nav-item.dropdown .nav-link.show {
-  color: #d1704d !important; /* Cambia este color al que prefieras */
+  color: #d1704d !important; 
 }
 
 .textoMenu{
@@ -116,14 +116,14 @@ font-size: 26px;
 
 .imagenX100Pre {
 display: flex;
-justify-content: center; /* Centra horizontalmente */
-align-items: center; /* Centra verticalmente */
-flex-direction: column; /* Asegura que el contenido esté alineado */
+justify-content: center; 
+align-items: center; 
+flex-direction: column; 
 padding: 20px;
-background: #085070; /* Fondo con transparencia */
+background: #085070; 
 border-radius: 15px;
-box-shadow: 0px 10px 100px #085070; /* Sombra */
-margin: 20px auto; /* Asegura que esté centrado horizontalmente */
+box-shadow: 0px 10px 100px #085070; 
+margin: 20px auto; 
 max-width: 600px; 
 }
 
@@ -138,16 +138,16 @@ color: #d1704d;
 }
 
 .escucharAhora{
-max-width: 280px; /* Ajusta el tamaño según prefieras */
-margin: 0 auto; /* Centra la caja horizontalmente */
+max-width: 280px; 
+margin: 0 auto; 
 }
 
 .fondoNegro {
 color: white;
 padding: 20px;
 border-radius: 15px;
-background: #085070; /* Fondo con transparencia */
-box-shadow: 0px 10px 100px #085070; /* Sombra */
+background: #085070; 
+box-shadow: 0px 10px 100px #085070; 
 
 }
 
@@ -156,9 +156,9 @@ color: white;
 }
 
 #btnMensaje {
-  font-size: 24px;  /* Tamaño de texto más grande */
-  padding: 15px 30px; /* Espaciado interno */
-  width: 200px;  /* Ancho fijo */
+  font-size: 24px;  
+  padding: 15px 30px; 
+  width: 200px;  
   background-color: #d1704d;
   color: #085070;
   border: 2px solid #d1704d;
@@ -191,8 +191,8 @@ object-position: center;
 }
 
 .navbar-toggler-icon {
-background-color: white; /* Cambia a cualquier color */
-border-radius: 5px; /* Hace las líneas más redondeadas */
+background-color: white;
+border-radius: 5px; 
 }
 
 #politica{
