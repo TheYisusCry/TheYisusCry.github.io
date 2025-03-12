@@ -1,5 +1,4 @@
 // Funcionamiento de los botones
-
 document.addEventListener("DOMContentLoaded", function() {
     const btnMensaje = document.getElementById("btnMensaje");
 
