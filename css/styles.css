@@ -39,13 +39,13 @@ font-weight: bold;
 }
 
 a {
-  color: #000000; /* Color negro */
+  color: #000000; 
   text-decoration: none;
   font-size: 20px;
 }
 
 a:hover {
-  color: #ffffff; /* Cambia el color cuando el ratón está sobre el enlace */
+  color: #ffffff; 
 }
 
 p{
@@ -65,8 +65,8 @@ li{
 }
 
 .navbar-toggler-icon {
-  background-color: black; /* Cambia a cualquier color */
-  border-radius: 5px; /* Hace las líneas más redondeadas */
+  background-color: black; 
+  border-radius: 5px; 
   }
 
 .navbar-nav .nav-item .nav-link.active {
@@ -81,24 +81,24 @@ li{
 
 /* Cambiar el fondo del dropdown */
 .navbar .dropdown-menu {
-  background-color: #989897 !important; /* Cambia este color al que prefieras */
+  background-color: #989897 !important; 
 }
 
 /* Cambiar el color de los enlaces dentro del dropdown */
 .navbar .dropdown-menu .dropdown-item {
-  color: black !important; /* Color del texto */
+  color: black !important; 
 }
 
 /* Cambiar el color cuando se pasa el mouse sobre un elemento del dropdown */
 .navbar .dropdown-menu .dropdown-item:hover {
-  background-color: #ffffff !important; /* Cambia este color al que prefieras */
+  background-color: #ffffff !important; 
   color: black !important;
 }
 /* Mantener el color del texto en el dropdown activo */
 .navbar .nav-item.dropdown .nav-link:focus,
 .navbar .nav-item.dropdown .nav-link:active,
 .navbar .nav-item.dropdown .nav-link.show {
-  color: #ffffff !important; /* Cambia este color al que prefieras */
+  color: #ffffff !important; 
 }
 
 .textoMenu{
@@ -145,8 +145,8 @@ background-color: 078cc0;
 color: white;
 padding: 20px;
 border-radius: 15px;
-background: #989897; /* Fondo con transparencia */
-box-shadow: 0px 10px 100px #989897; /* Sombra */
+background: #989897; 
+box-shadow: 0px 10px 100px #989897; 
 
 }
 
@@ -176,8 +176,8 @@ footer{
   }
   
   .navbar-toggler-icon {
-  background-color: black; /* Cambia a cualquier color */
-  border-radius: 5px; /* Hace las líneas más redondeadas */
+  background-color: black; 
+  border-radius: 5px; 
   }
 
 #politica{
