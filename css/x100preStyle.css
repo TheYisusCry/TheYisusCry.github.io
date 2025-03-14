@@ -9,9 +9,9 @@ body{
   font-style: normal;
   padding-top: 5%;
   background-image: url("/img/pagina-principal/x100pre.png");
-  background-size: cover; /* Ajusta el tamaño de la imagen */
-  background-position: center; /* Centra la imagen */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
   display: flex;
   flex-direction: column;
 }
@@ -46,13 +46,13 @@ h5{
 }
 
 a {
-  color: white; /* Color negro */
+  color: white; 
   text-decoration: none;
   font-size: 20px;
 }
 
 a:hover {
-  color: #efb810; /* Cambia el color cuando el ratón está sobre el enlace */
+  color: #efb810; 
 }
 
 p{
@@ -66,8 +66,8 @@ p{
 }
 
 .navbar-toggler-icon {
-  background-color: white; /* Cambia a cualquier color */
-  border-radius: 5px; /* Hace las líneas más redondeadas */
+  background-color: white; 
+  border-radius: 5px; 
 }
 
 .navbar-nav .nav-item .nav-link.active {
@@ -81,24 +81,24 @@ p{
 
 /* Cambiar el fondo del dropdown */
 .navbar .dropdown-menu {
-  background-color: black !important; /* Cambia este color al que prefieras */
+  background-color: black !important; 
 }
 
 /* Cambiar el color de los enlaces dentro del dropdown */
 .navbar .dropdown-menu .dropdown-item {
-  color: white !important; /* Color del texto */
+  color: white !important; 
 }
 
 /* Cambiar el color cuando se pasa el mouse sobre un elemento del dropdown */
 .navbar .dropdown-menu .dropdown-item:hover {
-  background-color: #efb810 !important; /* Cambia este color al que prefieras */
+  background-color: #efb810 !important; 
   color: white !important;
 }
 /* Mantener el color del texto en el dropdown activo */
 .navbar .nav-item.dropdown .nav-link:focus,
 .navbar .nav-item.dropdown .nav-link:active,
 .navbar .nav-item.dropdown .nav-link.show {
-  color: #efb810 !important; /* Cambia este color al que prefieras */
+  color: #efb810 !important; 
 }
 
 
@@ -116,14 +116,14 @@ p{
 
 .imagenX100Pre {
   display: flex;
-  justify-content: center; /* Centra horizontalmente */
-  align-items: center; /* Centra verticalmente */
-  flex-direction: column; /* Asegura que el contenido esté alineado */
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
   padding: 20px;
-  background: #efb810; /* Fondo con transparencia */
+  background: #efb810; 
   border-radius: 15px;
-  box-shadow: 0px 10px 100px #efb810; /* Sombra */
-  margin: 20px auto; /* Asegura que esté centrado horizontalmente */
+  box-shadow: 0px 10px 100px #efb810; 
+  margin: 20px auto; 
   max-width: 600px; 
 }
 
@@ -138,8 +138,8 @@ p{
 }
 
 .escucharAhora{
-  max-width: 280px; /* Ajusta el tamaño según prefieras */
-  margin: 0 auto; /* Centra la caja horizontalmente */
+  max-width: 280px; 
+  margin: 0 auto; 
 }
 
 .fondoNegro {
@@ -147,8 +147,8 @@ p{
   color: white;
   padding: 20px;
   border-radius: 15px;
-  background: #000000; /* Fondo con transparencia */
-  box-shadow: 0px 10px 100px #000000; /* Sombra */
+  background: #000000; 
+  box-shadow: 0px 10px 100px #000000; 
   
 }
 
@@ -157,9 +157,9 @@ p{
 }
 
 #btnMensaje {
-  font-size: 24px;  /* Tamaño de texto más grande */
-  padding: 15px 30px; /* Espaciado interno */
-  width: 200px;  /* Ancho fijo */
+  font-size: 24px;  
+  padding: 15px 30px; 
+  width: 200px;  
   background-color: #efb810;
   color: black;
   border: 2px solid #efb810;
@@ -194,8 +194,8 @@ footer{
 }
 
 .navbar-toggler-icon {
-  background-color: white; /* Cambia a cualquier color */
-  border-radius: 5px; /* Hace las líneas más redondeadas */
+  background-color: white; 
+  border-radius: 5px; 
 }
 
 #politica{
